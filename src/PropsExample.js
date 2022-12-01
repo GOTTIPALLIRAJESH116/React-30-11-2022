@@ -1,14 +1,12 @@
-import React from 'react'
-class PropsExample extends React.Component{
-	render()
-	{
+import React from "react"
+
+class ClassComponent1 extends React.Component{
+	render(){
 		return(
 			<div>
-				<h1>about props</h1>
-				<p>name={this.props.name}</p>
+				from class JambalakadiJarumitaiah
 			</div>
-
-			)
+		)
 	}
 }
-export default PropsExample
+export default ClassComponent1

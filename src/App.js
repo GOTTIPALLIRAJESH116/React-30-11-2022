@@ -14,7 +14,7 @@ function App(){
 }
 export default App*/
 
-import PropsExample from './PropsExample'
+/*import PropsExample from './PropsExample'
 function App(){
   return(
       <div>
@@ -22,5 +22,18 @@ function App(){
         <PropsExample name="Rajesh" age="20"/>
       </div>
     )
+}
+export default App*/
+
+//import PropsExample1 from './PropsExample1'
+import StateExample from './StateExample'
+function App(){
+  return(
+    <div>
+    <h1>This is Internship</h1>
+    {/*<PropsExample1 name="Trinath" age="25"/>*/}
+    <StateExample/>
+    </div>
+  )
 }
 export default App
