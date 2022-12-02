@@ -26,13 +26,12 @@ function App(){
 export default App*/
 
 //import PropsExample1 from './PropsExample1'
-import StateExample from './StateExample'
+// import StateExample from './StateExample'
+import Events from './Events'
 function App(){
   return(
     <div>
-    <h1>This is Internship</h1>
-    {/*<PropsExample1 name="Trinath" age="25"/>*/}
-    <StateExample/>
+    <Events/>
     </div>
   )
 }
